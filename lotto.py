@@ -59,6 +59,7 @@ def draw_numbers():
 window = Tk()
 window.title("Lotto")
 window.geometry("450x500")
+window.resizable(False, False)
 
 B_HEIGHT = 1
 B_WIDTH = 3
